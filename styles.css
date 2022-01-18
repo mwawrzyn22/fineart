@@ -1,9 +1,12 @@
 * {
-    background-color: black;
     padding: 0px;
     margin: 5px;
     box-sizing: border-box;
 
+}
+body{
+    font-family: 'Yeseva One', cursive;
+    background-color: black;
 }
 .frozentext {
     position: fixed;    
@@ -69,8 +72,7 @@ text {
     padding: 30px;
 }
 .l{
-    opacity: 0px;
-    background-color: rgb(0, 0, 0);   
+    background-color: transparent;   
     min-height: 800px;
     width: 100%;
     display: flex;
@@ -80,7 +82,56 @@ text {
     padding: 30px;
 
 }
+.textpath1{
+    position: absolute;
+    background-color: transparent;
+    top: 250px;
+    height: 500px;
+    width: 800px;
+}
+.textpath2{
+    position: absolute;
+    background-color: transparent;
+    top: 1000px;
+    height: 900px;
+    width: 1200px;
+}
+.textpath3{
+    position: absolute;
+    background-color: transparent;
+    top: 2500px;
+    height: 400px;
+    width: 700px;
+}
 
+.textpath5{
+    position: absolute;
+    background-color: transparent;
+    top: 4000px;
+    height: 400px;
+    width: 700px;
+}
+.textpath6{
+    position: absolute;
+    background-color: transparent;
+    top: 5000px;
+    height: 400px;
+    width: 700px;
+}
+.textpath7{
+    position: absolute;
+    background-color: transparent;
+    top: 6000px;
+    height: 400px;
+    width: 1500px;
+}
+.textpath8{
+    position: absolute;
+    background-color: transparent;
+    top: 8000px;
+    height: 500px;
+    width: 1500px;
+}
 .lts{
     opacity: 0px;
     background-color: rgb(0, 0, 0);   
@@ -209,7 +260,6 @@ object-fit: cover;
         padding: 30px;
     }
     .l{
-        opacity: 0px;
         background-color: rgb(0, 0, 0);   
         min-height: 800px;
         width: 100%;
@@ -236,7 +286,12 @@ object-fit: cover;
         transition: .6s ease;
         backface-visibility: hidden;
     }
-    
+    .textpath{
+        position: relative;
+        bottom: 400px;
+        height: 100px;
+        width: 100px;
+    }
     .lts:hover{
     opacity: 100;
     background: transparent;
